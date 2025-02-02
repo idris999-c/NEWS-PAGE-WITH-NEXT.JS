@@ -1,60 +1,56 @@
-# Haber Sayfası - Next.js, TypeScript ve Tailwind CSS
+# News Page - Next.js, TypeScript, and Tailwind CSS
 
-Bu proje, modern ve dinamik bir haber sayfası oluşturmak amacıyla geliştirilmiştir. Next.js, TypeScript ve Tailwind CSS kullanarak hızlı, SEO uyumlu ve mobil dostu bir haber platformu oluşturduk.
+This project was developed to create a modern and dynamic news page. Using Next.js, TypeScript, and Tailwind CSS, we built a fast, SEO-friendly, and mobile-responsive news platform.
 
-## Projeyi Nasıl Başlatabilirim?
+## How Can I Start the Project?
 
-Projenin geliştirme sunucusunu çalıştırmak için aşağıdaki komutlardan birini kullanabilirsiniz:
+To start the development server, you can use one of the following commands:
 
 ```bash
 npm run dev
-# veya
+# or
 yarn dev
-# veya
+# or
 pnpm dev
-# veya
+# or
 bun dev
 ```
 
-Ardından tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini ziyaret ederek projenin çalışıp çalışmadığını kontrol edebilirsiniz.
+Then, visit [http://localhost:3000](http://localhost:3000) in your browser to check if the project is running.
 
-## Bu Projede Kullanılan Teknolojiler Nelerdir?
+## What Technologies Are Used in This Project?
 
-- **Next.js**: Sunucu tarafı render (SSR) ve statik site oluşturma (SSG) desteği ile SEO dostu ve hızlı bir framework.
-- **TypeScript**: Daha güvenli ve hata tespitini kolaylaştıran bir programlama dili.
-- **Tailwind CSS**: Hızlı ve optimize CSS kullanımı ile modern bir görünüm.
+- **Next.js**: A fast and SEO-friendly framework with support for server-side rendering (SSR) and static site generation (SSG).
+- **TypeScript**: A programming language that enhances code safety and makes error detection easier.
+- **Tailwind CSS**: A utility-first CSS framework that enables a modern and optimized design.
 
-## Haber Sayfası Neden Next.js Kullanıyor?
+## Why Does the News Page Use Next.js?
 
-**Soru:** Haber sayfası neden Next.js kullanıyor?
+**Question:** Why is Next.js used for the news page?
 
-**Cevap:** Next.js, haber içeriklerini hızlı ve SEO uyumlu bir şekilde göstermemizi sağlar. Sayfalar önceden oluşturulabilir (SSG) ya da anında sunucudan çekilebilir (SSR). Bu da hızlı yüklenme ve daha iyi arama motoru sıralaması sağlar.
+**Answer:** Next.js allows us to display news content quickly and in an SEO-friendly manner. Pages can be pre-generated (SSG) or fetched dynamically from the server (SSR). This ensures faster load times and better search engine rankings.
 
-## Dinamik Haber Sistemi Nasıl Çalışıyor?
+## How Does the Dynamic News System Work?
 
-**Soru:** Haberler statik mi yoksa dinamik mi güncelleniyor?
+**Question:** Are the news articles updated statically or dynamically?
 
-**Cevap:** Haberler dinamik olarak güncelleniyor. TypeScript ile veri modellerini tanımlayarak ve API entegrasyonu yaparak haberleri gerçek zamanlı olarak ekleyebiliriz.
+**Answer:** The news articles are updated dynamically. By defining data models with TypeScript and integrating APIs, we can add news content in real time.
 
-## Tasarımda Neden Tailwind CSS Kullanıyoruz?
+## Why Do We Use Tailwind CSS for Styling?
 
-**Soru:** Neden geleneksel CSS yerine Tailwind CSS tercih edildi?
+**Question:** Why was Tailwind CSS preferred over traditional CSS?
 
-**Cevap:** Tailwind CSS, utility-first bir yaklaşıma sahiptir. Bu sayede hızlı tasarım yapabilir, gereksiz CSS dosyalarından kaçınabiliriz. Ayrıca responsive tasarımları oluşturmak daha kolay olur.
+**Answer:** Tailwind CSS follows a utility-first approach, allowing for rapid design and avoiding unnecessary CSS files. It also makes responsive design implementation easier.
 
-## Projeyi Nasıl Yayınlıyabilirim?
+## How Can I Deploy the Project?
 
-**Soru:** Haber sayfasını yayınlamak için ne yapmalıyım?
+**Question:** How can I deploy the news page?
 
-**Cevap:** En kolay yöntem, Next.js'in yaraticisi olan Vercel platformunu kullanmaktır. Projeyi Vercel'e deploy etmek için şu adımları takip edebilirsin:
+**Answer:** The easiest way is to use Vercel, the creator of Next.js. To deploy your project to Vercel, follow these steps:
 
-1. [Vercel](https://vercel.com/) hesabı aç.
-2. GitHub ile projeni bağlantı kur.
-3. Vercel'in otomatik deploy sürecini kullanarak yayınla.
+1. Create an account on [Vercel](https://vercel.com/).
+2. Connect your project with GitHub.
+3. Use Vercel's automatic deployment process to publish your site.
 
-Alternatif olarak kendi sunucuna da yayın yapabilirsin.
-
----
-
-Bu belge haber sayfan hakkında temel bilgileri ve kullanım adımlarını açıklamaktadır. Daha fazla bilgi eklemek istersen, bana söyleyebilirsin!
+Alternatively, you can deploy the project on your own server.
 
