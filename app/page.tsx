@@ -46,7 +46,7 @@ export default function Home() {
     <>
       {/* Head section for meta tags and page title */}
       <head>
-        <title>About</title>
+        <title>HOME-PAGE</title>
         <meta
           name="Contact us to help you"
           content="Get in touch with us for inquiries, quotes, or support. We're here to help you with your needs." />

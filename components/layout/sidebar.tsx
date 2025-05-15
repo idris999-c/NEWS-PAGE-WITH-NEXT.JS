@@ -35,11 +35,35 @@ const Sidebar: React.FC<SidebarProps> = ({ menuOpen, setMenuOpen }) => {
                 } transition-transform duration-300 ease-in-out md:hidden`}
         >
             <span className="text-3xl text-black-blue-heavy">RİSCK</span>
-            <ul className="flex flex-col items-start p-6 space-y-6">
-                <li><Link href="/" onClick={() => setMenuOpen(false)}>HOME</Link></li>
-                <li><Link href="/Navbar/about" onClick={() => setMenuOpen(false)}>ABOUT</Link></li>
-                <li><Link href="/Navbar/contact" onClick={() => setMenuOpen(false)}>CONTACT</Link></li>
-                <li><Link href="/Navbar/services" onClick={() => setMenuOpen(false)}>SERVICES</Link></li>
+            <ul className="flex flex-col items-start p-6 space-y-6 ">
+                <li>
+                    <a
+                        className=" hover:px-4 hover:py-2 hover:border-2  transition-all duration-300 relative before:content-['›'] before:absolute before:left-0 before:opacity-0 hover:before:opacity-100"
+                        href="/Navbar/services"
+                        onClick={() => setMenuOpen(false)}
+                    >
+                        WORLD NEWS
+                    </a>
+                </li>
+                <li>
+                    <a
+                        className=" hover:px-4 hover:py-2 hover:border-2  transition-all duration-300 relative before:content-['›'] before:absolute before:left-0 before:opacity-0 hover:before:opacity-100"
+                        href="/Navbar/about"
+                        onClick={() => setMenuOpen(false)}
+                    >
+                        ABOUT
+                    </a>
+                </li>
+                <li>
+                    <a
+                        className=" hover:px-4 hover:py-2 hover:border-2  transition-all duration-300 relative before:content-['›'] before:absolute before:left-0 before:opacity-0 hover:before:opacity-100"
+                        href="/Navbar/contact"
+                        onClick={() => setMenuOpen(false)}
+                    >
+                        CONTACT US
+                    </a>
+                </li>
+
             </ul>
         </div>
     );
